@@ -1,5 +1,5 @@
 
-# KernelLogger
+### KernelLogger
 
 # Core Purpose
 KernelLogger Module is a persistent, automated diagnostic tool that:
