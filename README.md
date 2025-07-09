@@ -42,4 +42,4 @@ Offline debugging (no ADB needed)
 
 1 :- Monitor background system behavior without a PC
 
-2:- Detect SELinux denials or resource* leaks
+2 :- Detect SELinux denials or resource* leaks
