@@ -93,7 +93,7 @@ Auto-rotates every 48 hours to prevent storage exhaustion
 
 No manual cleanup required
 
-# Technical Value Propositio 
+# Technical Value Proposition
 
 1• For Developers
 
@@ -112,26 +112,3 @@ Share logs easily (pull SD card vs. ADB file transfers)
 Monitor background system behavior without a PC
 
 Detect SELinux denials or resource leaks
-
-No manual cleanup required
-
-# Technical Value Propositio 
-
-1• For Developers
-
-Debug boot loops by reviewing kmsg.log post-crash
-
-Identify hardware faults (e.g., touchscreen errors in kernel logs)
-
-2• For Testers
-
-Capture intermittent crashes during long stress tests
-
-Share logs easily (pull SD card vs. ADB file transfers)
-
-3• For Power Users
-
-Monitor background system behavior without a PC
-
-Detect SELinux denials or resource leaks
- 
