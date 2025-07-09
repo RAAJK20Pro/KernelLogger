@@ -5,7 +5,7 @@ A lightweight background service that continuously records kernel logs (dmesg) a
 # Core Purpose
 KernelLogger Module is a persistent, automated diagnostic tool that:
 
-***Captures Critical Logs**
+***Captures Critical Logs***
 
 Kernel logs (dmesg): Hardware/driver events, boot failures, kernel panics
 
