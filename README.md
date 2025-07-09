@@ -13,24 +13,24 @@ KernelLogger Module is a persistent, automated diagnostic tool that:
 
 **Saves to External Storage**
 
-1:- Writes logs to SD card (/mnt/media_rw/[SD-CARD-ID]/LOGS/) for:
+1 :- Writes logs to SD card (/mnt/media_rw/[SD-CARD-ID]/LOGS/) for:
 Offline debugging (no ADB needed)
 
-2:- Crash survival (logs persist through reboots)
+2 :- Crash survival (logs persist through reboots)
 
 **Self-Maintaining**
 
-1:- Auto-rotates every 48 hours to prevent storage exhaustion
+1 :- Auto-rotates every 48 hours to prevent storage exhaustion
 
-2:- No manual cleanup required
+2 :- No manual cleanup required
 
 # Technical Value Proposition
 
 **For Developers**
 
-1:- Debug boot loops by reviewing kmsg.log post-crash
+1 :- Debug boot loops by reviewing kmsg.log post-crash
 
-2:- Identify hardware faults (e.g., touchscreen errors in kernel logs)
+2 :- Identify hardware faults (e.g., touchscreen errors in kernel logs)
 
 **For Kernel Testers & ROM Tester**
 
