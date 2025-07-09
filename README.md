@@ -34,12 +34,12 @@ Offline debugging (no ADB needed)
 
 **For Kernel Testers & ROM Tester**
 
-1:- Capture intermittent crashes during long stress tests
+1 :- Capture intermittent crashes during long stress tests
 
-2:- Share logs easily (pull SD card vs. ADB file transfers)
+2 :- Share logs easily (pull SD card vs. ADB file transfers)
 
 **For Power Users**
 
-1:- Monitor background system behavior without a PC
+1 :- Monitor background system behavior without a PC
 
 2:- Detect SELinux denials or resource* leaks
