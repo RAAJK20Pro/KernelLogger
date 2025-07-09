@@ -7,9 +7,9 @@ KernelLogger Module is a persistent, automated diagnostic tool that:
 
 **Captures Critical Logs**
 
-1:- Kernel logs (dmesg): Hardware/driver events, boot failures, kernel panics
+1 :- Kernel logs (dmesg): Hardware/driver events, boot failures, kernel panics
 
-2:- System logs (logcat): App crashes, service errors, Android framework issues
+2 :- System logs (logcat): App crashes, service errors, Android framework issues
 
 **Saves to External Storage**
 
