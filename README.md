@@ -7,37 +7,34 @@ KernelLogger Module is a persistent, automated diagnostic tool that:
 
 **Captures Critical Logs**
 
-**Kernel logs (dmesg): Hardware/driver events, boot failures, kernel panics*
+Kernel logs (dmesg): Hardware/driver events, boot failures, kernel panics
 
-**System logs (logcat): App crashes, service errors, Android framework issues*
+System logs (logcat): App crashes, service errors, Android framework issues
 
 **Saves to External Storage**
 
-**Writes logs to SD card* 
+Writes logs to SD card (/mnt/media_rw/[SD-CARD-ID]/LOGS/) for:
+Offline debugging (no ADB needed)
 
-**(/mnt/media_rw/[SD-CARD-ID]/LOGS/) for:*
-
-**Offline debugging (no ADB needed)*
-
-**Crash survival (logs persist through reboots)*
+Crash survival (logs persist through reboots)
 
 **Self-Maintaining**
 
-**Auto-rotates every 48 hours to prevent storage exhaustion*
+Auto-rotates every 48 hours to prevent storage exhaustion
 
 # Technical Value Proposition
 
 **For Developers**
 
-**Debug boot loops by reviewing kmsg.log post-crash*
+Debug boot loops by reviewing kmsg.log post-crash
 
-**Identify hardware faults (e.g., touchscreen errors in kernel logs)*
+Identify hardware faults (e.g., touchscreen errors in kernel logs)
 
 **For Kernel Testers & ROM Tester**
 
-**Capture intermittent crashes during long stress tests*
+Capture intermittent crashes during long stress tests
 
-**Share logs easily (pull SD card vs. ADB file transfers)*
+Share logs easily (pull SD card vs. ADB file transfers)
 
 **For Power Users**
 
